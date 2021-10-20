@@ -11,14 +11,26 @@
     --font-1: 'Raleway'
 }
 
+/* General reset */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLING */
+
+body {
+    font-family: var(--font-1);
+}
 
 /* NAVBAR */
-
 
 .navbar {
     background-color: var(--dark-blue);
     width: 100vw;
+    padding: 10px;
     
     display: flex;
     justify-content: space-around;
@@ -26,15 +38,16 @@
 }
 
 .nav-header {
-    font-family: var(font-1);
     color: var(--light-one);
     font-size: 24px;
+    font-weight: 600;
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
+
 li {
     list-style: none;
 }
@@ -42,12 +55,56 @@ li {
 a {
     text-decoration: none;
     color: var(--light-one);
-    font-family: var(font-1);
     font-size: 18px;
 }
 
-
 /* HERO SECTION */
+
+.hero-section {
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 200px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about > p {
+    color: var(--light-two);
+    padding: 15px 0;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--light-one);
+
+}
+
+.hero-img {
+    width: 500px;
+    height: auto;
+}
+
+.btn-submit {
+    background-color: var(--light-blue);
+    color: var(--light-one);
+    font-family: var(--font-1);
+    font-weight: bold;
+
+
+    width: 100px;
+    padding: 5px;
+    border: 1px solid var(--light-blue);
+    border-radius: 10px;
+}
+
 
 
 /* MEET UPS SECTION */
