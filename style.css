@@ -67,8 +67,10 @@ a {
 .hero-section {
     background-color: var(--dark-blue);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    /* flex-wrap: wrap; */
+    flex: 1;
     gap: 50px;
     padding: 100px 200px;
 }
@@ -131,6 +133,8 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .meetup-card {
@@ -197,6 +201,7 @@ a {
         padding: 0;
         width: 100px;
         height: 40px;
+        flex-shrink: 0;
     }
 /* FOOTER */
 
