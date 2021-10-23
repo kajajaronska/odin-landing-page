@@ -25,6 +25,8 @@
 
 body {
     font-family: var(--font-3);
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -177,9 +179,30 @@ a {
     /* background-color: rosybrown; */
 }
 
-
-
-
-
 /* SIGN UP SECTION */
+    .sign-up-section {
+        background-color: var(--light-blue);
+        color: var(--light-one);
+        margin: 110px 200px;
+        padding: 50px;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+
+    .btn-sign-up {
+        border: 1px solid var(--light-one);
+        padding: 0;
+        width: 100px;
+        height: 40px;
+    }
 /* FOOTER */
+
+    .footer {
+        background-color: var(--dark-blue);
+        padding: 20px;
+        text-align: center;
+        color: var(--light-one);
+    }
