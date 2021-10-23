@@ -108,6 +108,58 @@ a {
 
 
 /* MEET UPS SECTION */
+.meetups-section {
+    background-color: white;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.meetups-section>h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.meetup-cards {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.meetup-card {
+    max-width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.meetup-card > img {
+    width: 250px;
+    height: auto; 
+    border-radius: 5px;
+}
+
+.meetup-card>p{
+    /* background-color: rosybrown; */
+    align-self: center;
+}
+
+
+
 /* QUOTE SECTION */
+.quote-section {
+    background-color: var(--light-two);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* SIGN UP SECTION */
 /* FOOTER */
