@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:ital,wght@1,300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:ital,wght@1,300&family=Roboto&family=Zen+Kaku+Gothic+New&display=swap');
 
 /* VARIABLES */
 
@@ -8,7 +8,9 @@
     --light-one: #F9FAF8;
     --light-two: #E5E7EB;
     --light-blue: #3882F6;
-    --font-1: 'Raleway'
+    --font-1: 'Raleway', sans-serif;
+    --font-2: 'Roboto', sans-serif;
+    --font-3: 'Zen Kaku Gothic New', sans-serif;
 }
 
 /* General reset */
@@ -22,7 +24,7 @@
 /* GENERAL STYLING */
 
 body {
-    font-family: var(--font-1);
+    font-family: var(--font-3);
 }
 
 /* NAVBAR */
@@ -151,15 +153,33 @@ a {
 }
 
 
-
 /* QUOTE SECTION */
 .quote-section {
     background-color: var(--light-two);
+    padding: 100px 200px;
+    font-size: 36px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+.quote-text {
+    font-weight: 300;
+    font-style: italic
+}
+
+.quote-author {
+    font-weight: 700;
+    align-self: flex-end;
+    /* background-color: rosybrown; */
+}
+
+
+
+
 
 /* SIGN UP SECTION */
 /* FOOTER */
